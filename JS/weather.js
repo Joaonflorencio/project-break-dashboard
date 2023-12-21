@@ -24,7 +24,7 @@ function mostrarClimaActual({ current, location }) {
     <div class="datos-clima-actual">
         <div class="temperatura-actual">
             <img class="icono-clima" src="${icon}" alt="${text}">
-            <div>${temp_c}°<img class="icono-celsius" src="/images/celsius.png" alt="grados"></div>
+            <div>${temp_c}°<img class="icono-celsius" src="./images/celsius.png" alt="grados"></div>
         </div>
         <ul>
             <li>Precipitaciones: ${precip_in}%</li>
